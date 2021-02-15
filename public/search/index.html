@@ -1,0 +1,290 @@
+<!doctype html>
+<html>
+<%= VUE_APP_HEADER %>
+<body>
+    <%= VUE_APP_NAVBAR_SOLID %>
+    <main>
+        <div class="amplify-overlay"></div>
+        <section class="section is-medium has-background-white has-padding-bottom-0 amplify-header">
+            <div class="container">
+                <div class="columns is-centered">
+                    <div class="column is-8 has-text-centered ">
+                        <div class="has-width-80-percent">
+                            <div class="has-margin-bottom-4">
+                                <h1 class="title is-size-3 is-size-2-tablet">Suche</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="amplify-section section is-normal amplify-search has-background-white has-text-dark">
+            <div class="container">
+                <div class="columns is-multiline has-margin-bottom-5">
+                    <div class="column is-offset-2-desktop is-8-desktop">
+                        <div class="amplify-search-form">
+                            <form action="/search/" method="GET" id="search">
+                                <div class="field has-addons">
+                                    <div class="control is-expanded">
+                                        <input class="input is-medium" placeholder="Find your content..." type="text"
+                                            name="q" value="lorem" />
+                                    </div>
+                                    <div class="control">
+                                        <button type="submit" class="button is-medium is-link">
+                                            Search
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="amplify-search-results has-margin-top-5">
+                            <div class="content">
+                                <h1 class="title is-size-3-tablet">Found 10 results for &quot;lorem&quot;</h1>
+                                <div class="box">
+                                    <h4 class="is-size-4">Articles</h4>
+                                    <div class="has-margin-bottom-5">
+                                        <article class="media">
+                                            <div class="media-left has-margin-right-4 has-margin-top-3">
+                                                <a href="/article.html">
+                                                    <div class="image is-64x64">
+                                                        <img src="/media/d2gbqun5/amplify-image-3.jpg"
+                                                            alt="Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+                                                            class="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="media-content">
+                                                <div class="content">
+                                                    <small class="has-text-grey">Wed, Feb 12, 2020</small><br />
+                                                    <a href="/article.html" class="has-text-dark">
+                                                        <span
+                                                            class="is-size-5-tablet is-size-6 has-text-weight-semibold">Lorem
+                                                            ipsum dolor sit amet, consectetur adipiscing elit</span>
+
+                                                        <p class="has-margin-bottom-0">Lorem ipsum dolor sit amet,
+                                                            consectetur adipiscing elit. Praesent et mattis magna,
+                                                            condimentum faucibus ligula</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <hr />
+                                        <article class="media">
+                                            <div class="media-left has-margin-right-4 has-margin-top-3">
+                                                <a href="/article.html">
+                                                    <div class="image is-64x64">
+                                                        <img src="/media/3ftgt1ej/amplify-asset-2.jpg"
+                                                            alt=" Integer faucibus sapien lorem, eu suscipit velit ullamcorper et"
+                                                            class="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="media-content">
+                                                <div class="content">
+                                                    <small class="has-text-grey">Sat, Feb 29, 2020</small><br />
+                                                    <a href="/article.html"
+                                                        class="has-text-dark">
+                                                        <span
+                                                            class="is-size-5-tablet is-size-6 has-text-weight-semibold">
+                                                            Integer faucibus sapien lorem, eu suscipit velit ullamcorper
+                                                            et</span>
+
+                                                        <p class="has-margin-bottom-0">Etiam malesuada, justo ut
+                                                            vulputate pretium, odio velit facilisis massa, mollis
+                                                            convallis erat nisi sed erat. Aenean laoreet lorem.</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <hr />
+                                        <article class="media">
+                                            <div class="media-left has-margin-right-4 has-margin-top-3">
+                                                <a href="/article.html">
+                                                    <div class="image is-64x64">
+                                                        <img src="/media/g0wgqkxk/amplify-square-4.jpg"
+                                                            alt="Consectetur adipiscing elit" class="">
+
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="media-content">
+                                                <div class="content">
+                                                    <small class="has-text-grey">Tue, May 12, 2020</small><br />
+                                                    <a href="/article.html"
+                                                        class="has-text-dark">
+                                                        <span
+                                                            class="is-size-5-tablet is-size-6 has-text-weight-semibold ">Consectetur
+                                                            adipiscing elit</span>
+                                                        <p class="has-margin-bottom-0">Lorem ipsum dolor sit amet,
+                                                            consectetur adipiscing elit. Praesent et mattis magna,
+                                                            condimentum faucibus ligula. </p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <hr />
+                                        <article class="media">
+                                            <div class="media-left  has-margin-right-4 has-margin-top-3">
+                                                <a href="/article.html">
+                                                    <div class="image is-64x64">
+                                                        <img src="/media/d2gbqun5/amplify-image-3.jpg"
+                                                            alt="Praesent et mattis magna" class="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="media-content">
+                                                <div class="content">
+                                                    <small class="has-text-grey">Mon, May 11, 2020</small><br />
+                                                    <a href="/article.html" class="has-text-dark">
+                                                        <span
+                                                            class="is-size-5-tablet is-size-6 has-text-weight-semibold ">Praesent
+                                                            et mattis magna</span>
+                                                            <p class="has-margin-bottom-0">Lorem ipsum dolor sit amet,
+                                                            consectetur adipiscing elit. Praesent et mattis magna,
+                                                            condimentum faucibus ligula.</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <hr />
+                                        <article class="media">
+                                            <div class="media-left  has-margin-right-4 has-margin-top-3">
+                                                <a href="/article.html">
+                                                    <div class="image is-64x64">
+                                                        <img src="/media/v5ljms3d/amplify-asset-1.jpg"
+                                                            alt="Quisque faucibus ultrices erat et tincidunt" class="">
+                                                  </div>
+                                                </a>
+                                            </div>
+                                            <div class="media-content">
+                                                <div class="content">
+                                                    <small class="has-text-grey">Sun, May 10, 2020</small><br />
+                                                    <a href="/article.html"
+                                                        class="has-text-dark">
+                                                        <span
+                                                            class="is-size-5-tablet is-size-6 has-text-weight-semibold ">Quisque
+                                                            faucibus ultrices erat et tincidunt</span>
+                                                        <p class="has-margin-bottom-0">Quisque faucibus ultrices erat et
+                                                            tincidunt, Quisque faucibus ultrices erat et tincidunt.</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <h4>Products</h4>
+                                    <div class="has-margin-bottom-5">
+                                        <article class="media">
+                                            <div class="media-left has-margin-right-4 has-margin-top-3">
+                                                <a href="/product.html">
+                                                    <div class="image is-64x64">
+                                                        <img src="/media/g0wgqkxk/amplify-square-4.jpg"
+                                                            alt="Suspendisse scelerisque" class="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="media-content">
+                                                <div class="content">
+                                                    <a href="/product.html" class="has-text-dark">
+                                                        <span class="is-size-5 has-text-weight-semibold">Suspendisse
+                                                            scelerisque </span>
+                                                        <p>Nulla nec elit quam. Ut fringilla urna id lorem tincidunt</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <h4>Team</h4>
+                                    <div class="has-margin-bottom-5">
+                                        <article class="media">
+                                            <div class="media-left  has-margin-right-4 has-margin-top-3">
+                                                <a href="/profile.html">
+                                                    <div class="image is-64x64">
+                                                        <img src="/media/v5ljms3d/amplify-asset-1.jpg" alt="Lorem ipsum" class="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="media-content">
+                                                <div class="content">
+                                                    <a href="/profile.html" class="has-text-dark">
+                                                        <span class="is-size-5 has-text-weight-semibold">Lorem
+                                                            ipsum</span>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Suspendisse venenatis massa arcu, at porttitor risus iaculis
+                                                            ac. Cras sit amet&hellip;</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <hr />
+                                        <article class="media">
+                                            <div class="media-left has-margin-right-4 has-margin-top-3">
+                                                <a href="/profile.html">
+                                                    <div class="image is-64x64">
+                                                        <img src="/media/d2gbqun5/amplify-image-3.jpg"
+                                                            alt="Venenatis massa" class="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="media-content">
+                                                <div class="content">
+                                                    <a href="/profile.html" class="has-text-dark">
+                                                        <span class="is-size-5 has-text-weight-semibold">Venenatis
+                                                            massa</span>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Suspendisse venenatis massa arcu, at porttitor risus iaculis
+                                                            ac. Cras sit amet&hellip;</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                        <hr />
+                                        <article class="media">
+                                            <div class="media-left  has-margin-right-4 has-margin-top-3">
+                                                <a href="/profile.html">
+                                                    <div class="image is-64x64">
+                                                        <img src="/media/g0wgqkxk/amplify-square-4.jpg"
+                                                            alt="Curabitur viverra" class="">
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="media-content">
+                                                <div class="content">
+                                                    <a href="/profile.html" class="has-text-dark">
+                                                        <span class="is-size-5 has-text-weight-semibold">Curabitur
+                                                            viverra</span>
+                                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                                            Suspendisse venenatis massa arcu, at porttitor risus iaculis
+                                                            ac. Cras sit amet&hellip;</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <h4>Content</h4>
+                                    <div class="has-margin-bottom-5">
+                                        <article class="media">
+                                            <div class="media-content">
+                                                <div class="content">
+                                                    <a href="/contact.html" class="has-text-dark">
+                                                        <span class="is-size-5 has-text-weight-semibold">Enim diam
+                                                            tempus nisl</span>
+                                                        <p>Pellentesque sit amet ligula sodales ipsum feugiat tincidunt.
+                                                            Aenean lorem urna, volutpat ultrices vehicula sed, mollis in
+                                                            nisi.</p>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </article>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <%= VUE_APP_FOOTER %>
+    <a href="#" id="backToTop" class="amplify-top"></a>
+</body>
+</html>
