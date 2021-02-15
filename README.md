@@ -1,4 +1,4 @@
-# Amplify
+# Amplify Front End - Vue / Bulma
 
 ## Project setup
 ```
